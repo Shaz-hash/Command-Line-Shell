@@ -1,0 +1,20 @@
+alias ls="echo ls"
+alias ls
+ls
+ls
+unalias ls
+ls
+alias ll="ls -la"
+alias grep="grep --color=auto"
+alias
+alias gs="git status"
+gs
+ll
+unalias ll
+alias
+alias grep
+alias hello="echo hello"
+hello
+pwd
+alias
+grep '3' ./config.json

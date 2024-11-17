@@ -1,0 +1,5 @@
+ls | grep .json
+ls -al | grep total | cut -d ' ' -f 2
+cat config.json | grep -oE "easy|medium|advanced" | sort | uniq -c | sort -n
+find Tests/ -maxdepth 1 -type f | xargs wc -l | sort -n
+ps -opid,comm | grep -v PID | grep bash | awk '{print $1}' | sort | head -1

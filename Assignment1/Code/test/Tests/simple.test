@@ -1,0 +1,14 @@
+ls
+touch tempfile
+ls
+rm -f tempfile
+mkdir -p random_ahh_dir
+whoami
+rm -rf random_ahh_dir
+head -n 10 config.json
+tail -n 5 config.json
+cp config.json config.json.bak
+ls
+rm -f config.json.bak
+ls
+git status

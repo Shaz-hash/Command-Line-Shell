@@ -1,0 +1,1 @@
+find .. -type f -name "*.c" -o -name "*.h" | xargs wc -l | sort -n && find .. -type f -name "*.c" -o -name "*.h" | xargs wc -l | tail -n 1 | awk '{print $1}' | xargs echo "LOC: "

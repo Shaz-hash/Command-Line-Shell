@@ -1,0 +1,3 @@
+cat ../src/*.c | grep -o return | wc -l > ret_count.log ; cat ret_count.log ; rm ret_count.log
+grep "total" Tests/test_output/*.msh.out | sort -r | uniq > Tests/grep.log && echo "Search successful, logged to grep.log" || echo "Failure" ; false || echo "Print" ; rm Tests/grep.log
+echo "One letter ext" && ls ../*/*.? | grep -o '\.[a-zA-Z]$' | uniq | grep -o '[a-zA-Z]'

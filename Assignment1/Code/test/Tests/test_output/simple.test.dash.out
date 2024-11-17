@@ -1,0 +1,38 @@
+Tests
+config.json
+find.log
+names.txt
+test.py
+Tests
+config.json
+find.log
+names.txt
+tempfile
+test.py
+root
+{
+    "test_directory": "Tests",
+    "default_tests": [
+        "easy",
+        "medium",
+        "advanced"
+    ],
+    "test_files": {
+        "easy": [
+            "simple.test",
+    "reference_shell": "dash",
+    "default_timeout": 3,
+    "log_to_file": false,
+    "verbose": true
+}
+Tests
+config.json
+config.json.bak
+find.log
+names.txt
+test.py
+Tests
+config.json
+find.log
+names.txt
+test.py

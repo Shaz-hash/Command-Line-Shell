@@ -1,0 +1,17 @@
+config.json
+24
+      3 advanced
+      3 easy
+      3 medium
+   0 Tests/quotes.test
+   2 Tests/wild_chaining.test
+   4 Tests/pipeline.test
+   4 Tests/wildcards.test
+   5 Tests/chaining.test
+   7 Tests/builtins.test
+  12 Tests/ioredir.test
+  13 Tests/simple.test
+  19 Tests/aliases.test
+  19 Tests/aliases.test.custom
+  85 total
+12

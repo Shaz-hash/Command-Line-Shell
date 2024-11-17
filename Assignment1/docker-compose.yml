@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  os-fall-2023:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: root
+    volumes:
+      - .:/home/os-fall-2023
+    container_name: os-fall-2023
+    command: /bin/bash
+    stdin_open: true
+    tty: true

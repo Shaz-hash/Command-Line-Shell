@@ -1,0 +1,8 @@
+pwd
+echo hehe
+cd Tests
+pwd
+cd ..
+echo hello bro
+echo "testing 1 2 3"
+echo "hello" "world" "hehe"

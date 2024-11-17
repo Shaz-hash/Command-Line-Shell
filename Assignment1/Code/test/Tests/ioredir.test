@@ -1,0 +1,13 @@
+ls > ls.log
+rm -f ls.log
+cat ../Dockerfile > Dockerfile.log
+ls > ls.log
+cat ls.log
+rm -f ls.log
+cat Dockerfile.log
+rm -f Dockerfile.log
+echo "hello world" > file.txt
+cat file.txt
+echo "hello world 2" >> file.txt
+cat file.txt
+rm -f file.txt

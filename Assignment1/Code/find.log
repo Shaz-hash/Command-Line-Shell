@@ -1,0 +1,4 @@
+../Code/include/log.h
+../Code/include/utils.h
+../Code/src/main.c
+[1;36m[DEBUG][0m:  (executels,705) p-id of the process is : 63 

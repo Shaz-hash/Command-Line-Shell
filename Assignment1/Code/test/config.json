@@ -1,0 +1,35 @@
+{
+    "test_directory": "Tests",
+    "default_tests": [
+        "easy",
+        "medium",
+        "advanced"
+    ],
+    "test_files": {
+        "easy": [
+            "simple.test",
+            "builtins.test",
+            "aliases.test"
+        ],
+        "medium": [
+            "pipeline.test",
+            "ioredir.test"
+        ],
+        "advanced": [
+            "chaining.test",
+            "wildcards.test",
+            "quotes.test",
+            "wild_chaining.test"
+        ]
+    },
+    "weightage": {
+        "easy": 30,
+        "medium": 40,
+        "advanced": 30
+    },
+    "shell": "../build/Shell",
+    "reference_shell": "dash",
+    "default_timeout": 3,
+    "log_to_file": false,
+    "verbose": true
+}

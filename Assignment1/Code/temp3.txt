@@ -1,0 +1,14 @@
+typpe : 1 
+uyessss
+[1;36m[DEBUG][0m:  (executels,500) yesss
+Dockerfile.log
+Makefile
+build
+config.json.log
+find.log
+include
+src
+temp.txt
+temp2.txt
+temp3.txt
+test

@@ -1,0 +1,6 @@
+ls | grep .json && ls -al | grep total | cut -d ' ' -f 2
+cat config.json | grep -oE "easy|medium|advanced" | sort | uniq -c | sort -n || find Tests/ -maxdepth 1 -type f | xargs wc -l | sort -n
+false || echo "This should be printed" || echo "This should not be printed"
+ls && false || echo "doit" && false && echo "won’t work" || echo "works" ; echo "done"
+false || echo "This should be printed" || echo "This should not be printed"
+echo "O" ; echo p ; echo "e" ; echo r ; echo "a" ; echo t ; echo "i" ; echo o ; echo n ; echo "s"

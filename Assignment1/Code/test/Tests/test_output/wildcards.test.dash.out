@@ -1,0 +1,31 @@
+config.json
+find.log
+names.txt
+test.py
+
+Tests:
+aliases.test
+aliases.test.custom
+builtins.test
+chaining.test
+ioredir.test
+pipeline.test
+quotes.test
+simple.test
+test_output
+wild_chaining.test
+wildcards.test
+../src/main.c
+ 2055 ../src/main.c
+  101 ../include/log.h
+   27 ../include/utils.h
+ 2183 total
+-rw-rw-r-- 1 root root  92 Oct  3 01:38 Tests/wildcards.test
+-rw-rw-r-- 1 root root  96 Oct  2 12:48 Tests/builtins.test
+-rw-rw-r-- 1 root root 178 Oct  3 01:00 Tests/quotes.test
+-rw-rw-r-- 1 root root 203 Oct  2 12:53 Tests/simple.test
+-rw-rw-r-- 1 root root 222 Sep 12 15:35 Tests/aliases.test
+-rw-rw-r-- 1 root root 239 Oct  2 12:51 Tests/ioredir.test
+-rw-rw-r-- 1 root root 262 Oct  2 12:53 Tests/pipeline.test
+-rw-rw-r-- 1 root root 368 Oct  2 16:32 Tests/wild_chaining.test
+-rw-rw-r-- 1 root root 531 Oct  2 16:12 Tests/chaining.test

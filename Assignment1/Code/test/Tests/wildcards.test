@@ -1,0 +1,5 @@
+ls *
+ls *.c
+echo ../src/*.c
+wc -l ../src/*.c ../include/*.h
+ls -l Tests/*.test | sort -k5 -n

@@ -1,0 +1,17 @@
+ls
+Dockerfile.log
+Makefile
+build
+config.json.log
+find.log
+include
+log.txt
+ls.log
+output.txt
+output2.txt
+src
+temp.txt
+temp2.txt
+temp3.txt
+temp4.txt
+test
